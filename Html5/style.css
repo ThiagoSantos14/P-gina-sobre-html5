@@ -1,0 +1,38 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.topo {
+        background-color: black;
+}
+
+.foto-capa {
+    text-align: center;
+}
+
+.navegacao {
+    text-align: right;   
+}
+
+
+.titulo01 {
+    color: orangered;
+    font-size: 30px;
+}
+
+.titulo02, .titulo03, .titulo04 {
+    font-size: 20px;
+}
+
+footer, h2 {
+    color: red;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+}
+
+
+
+ 

@@ -1,0 +1,45 @@
+<h1>Cadastro Usuários</h1><hr><br><br>
+
+<style>
+    input[type="text"] {
+        background-color: gray;
+        font-size: 20px;
+    }
+
+    input[type="email"] {
+        background-color: gray;
+        font-size: 20px;
+        border: none;
+    }
+
+    input[type="password"] {
+        background-color: gray;
+        font-size: 20px;
+        border: none;
+    }
+    
+    input[type="submit"] {
+        background-color: red;
+        font-size: 15px; 
+        width: 227px;   
+    }
+
+    input::placeholder {
+        color: white;
+        font-size: 15px;
+    }
+</style>
+    
+<form>
+    <fieldset>
+        <legend>Cadastro</legend>
+        None<br>
+        <input type="text" name="none" required placeholder="Nickname"><br>
+        Email<br>
+        <input type="email" name="email" required placeholder="Email@gmail.com"><br>
+        Senha<br>
+        <input type="password" name="senha" required placeholder="Password"><br><br>
+
+        <input type="submit" name="enviar" value="Enviar">
+    </fieldset>
+</form>
